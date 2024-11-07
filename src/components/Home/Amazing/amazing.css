@@ -1,0 +1,33 @@
+.amazing {
+    padding-block: 140px;
+
+}
+
+.amazing__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+.amazing__intro {
+    
+}
+
+.amazing__title {
+    font-size: 90px;
+    line-height: 0.8;
+    max-width: 298px;
+    margin-bottom: 20px;
+}
+
+.amazing__text {
+    max-width: 315px;
+    font-family: var(--font-primary-text);
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.amazing__images {
+    display: flex;
+    gap: 30px;
+}
