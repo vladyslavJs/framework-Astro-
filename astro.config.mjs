@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    base: '/framework-Astro-/',
+    site: 'https://vladyslavJs.github.io', // мій сайт після деплою
+    base: 'framework-Astro-',
     output: 'static',
 });
