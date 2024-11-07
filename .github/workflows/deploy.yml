@@ -27,4 +27,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          publish_dir: dist  # Вказано папку, яку треба деплоїти
+          target_branch: gh-pages  # Вказано, куди деплоїти
+          force_orphan: true  # Створює окрему гілку для деплою
