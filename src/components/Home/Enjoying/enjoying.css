@@ -1,0 +1,79 @@
+.enjoynig {
+    padding-block: 180px 200px; 
+}
+
+.enjoying__inner {
+
+}
+
+.title {
+    font-size: 50px;
+    color:#fff;
+    font-family: var(--font-additional-text);
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    letter-spacing: -1px;
+    
+}
+
+.text_title {
+    margin-block: 17px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-family: var(--font-primary-text);
+
+}
+
+.text__content {
+    font-weight: 200;
+    text-align: center;
+    font-family: var(--font-primary-text);
+    font-size: 14px;
+}
+
+.enjoy__list {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    font-family: var(--font-primary-text);
+}
+
+.enjoy__card {
+    background-color: var(--c-black);
+    color:#fff;
+    max-width: 400px;
+    height: 360px;
+    padding: 64px 80px;
+}
+
+.enjoy__card--white {
+    background-color: #fff;
+    color:var(--c-black);
+    max-width: 400px;
+    height: 360px;
+    padding: 64px 80px;
+}
+    
+.card__title {
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.container-svg {
+    align-items: center;     
+    justify-content: center; 
+    text-align: center;
+}
+
+.container-svg img { 
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
