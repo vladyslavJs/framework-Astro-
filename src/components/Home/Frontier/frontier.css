@@ -12,8 +12,8 @@
 }
 
 .frontier__content {
-    /* background-color: red; */
-    /* max-width: 50%;  */
+    max-width: 650px;
+    width: 100%;
 }
 
 .frontier__title {
