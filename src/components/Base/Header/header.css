@@ -11,16 +11,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 0 40px;
 }
 
 .menu {
     display: flex;
+    gap: 25px;
 }
 
 .menu__link {
     /* display: inline-block; */
-    padding: 25px;
+    /* padding: 25px; */
     color: #fff;
     font-family: var(--font-additional-text);
     font-weight: 100;
@@ -56,5 +57,5 @@
     mask-repeat: no-repeat;
     background-color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
-    transition-delay: 0.2s
+    transition-delay: 0.2s;
 }
