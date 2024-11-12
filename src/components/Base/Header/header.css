@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #808080;
+    /* background-color: #808080; */
+    background-color: #000;
 }
 
 .header__container {
@@ -32,7 +33,8 @@
 
 .menu__link:hover, 
 .menu__link:focus {
-    color: var(--c-hover);
+    /* color: var(--c-hover); */
+    color: red;
 }
 
 .header__actions {
