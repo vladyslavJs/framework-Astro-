@@ -1,0 +1,51 @@
+.footer {
+    background-color: #808080;
+    background-color: #000;
+    color:#fff;
+    font-family: var(--font-primary-text);   
+}
+
+.container__footer {
+    max-width: 1880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.menu__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu__footer__link {
+    font-size: 14px;
+    font-weight: 400px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition-delay: 0.2s;
+}
+
+.menu__footer__link:hover,
+.menu__footer__link:focus {
+    color: red;
+
+}
+
+.adress__footer {
+}
+
+.adress-list {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.adress {
+}
+
+.author__name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
