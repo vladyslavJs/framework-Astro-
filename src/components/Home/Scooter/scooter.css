@@ -1,0 +1,43 @@
+
+.scooter {
+    padding-block: 180px 200px; 
+}
+
+.scooter__inner {
+
+    
+}
+
+.scooter-list {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.scooter-card {
+    text-align: center;
+
+}
+
+.scooter-image {
+
+}
+
+.scooter-large {
+
+}
+
+
+.scooter-title {
+    font-size: 36px;
+    padding-block: 15px;
+    
+}
+
+.scooter-text {
+    font-family: var(--font-primary-text);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
